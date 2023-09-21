@@ -1,0 +1,10 @@
+digraph G {
+  rankdir=LR;
+  node [shape=box, style=filled, color="lightblue"];
+  
+  mainmenu -> gardenview [label="Play"];
+  gardenview -> plantinfo [label="Tap plant"];
+  mainmenu -> settings [label="Settings"];
+  mainmenu -> encyclopedia [label="Plant Encyclopedia"];
+  gardenview -> toolbar [label="Tools"];
+}
